@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Mister Coderz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-5CkxRYdS+ypXhty4tVGV0m0lL+4QQb5grZJidz5b5Cf0Sd5+eYv0BhJW1N/nRcLQ"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Mister Coderz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="musicplayerindex.html">LISTEN
+              MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="chatgpt.html">CHATBOT</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="download.html">DOWNLOAD</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="projects.html">PROJECTS</a>
+          </li>
+
+
+
+
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              HTML & CSS
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Login Form</a></li>
+              <li><a class="dropdown-item" href="#">Calculator</a></li>
+              <li><a class="dropdown-item" href="#">Time Clock</a></li>
+              <li><a class="dropdown-item" href="#">Card Hover</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <div class="btn-group dropend">
+                <a class="dropdown-item" href="projects.html">More</a>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              JAVASCRIPT
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Snake Game</a></li>
+              <li><a class="dropdown-item" href="#">Stop Watch</a></li>
+              <li><a class="dropdown-item" href="#">Weather App</a></li>
+              <li><a class="dropdown-item" href="#">Calculator</a></li>
+              <div class="btn-group dropend">
+                <a class="dropdown-item" href="projects.html">More</a>
+              </div>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white active" target="_blank" aria-current="page"
+              href="https://www.youtube.com/@mistercoderzofficial">YOUTUBE</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary modal-open " data-bs-toggle="modal"
+            data-bs-target="#exampleModal1" data-bs-backdrop="static">
+            Log In
+          </button>
+
+          <!-- Modal -->
+          
+          <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Sign Up
+          </button>
+
+          <!-- Modal -->
+          
+
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+
+    <strong>Love our work? You'll also love our web development services on Fiverr!
+    </strong> <a href="#" class="alert-link">Hire us on Fiverr</a>
+
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+    <strong>We have launched our new Music Player.</strong><a target="_blank"
+      href="http://www.mistercoderz.me/musicplayer.html" class="alert-link">Try it Out!!!</a> <span
+      class="badge text-bg-primary ">New</span>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel mb-4 slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Mister Coderz</h2>
+          <p>
+          <h5>Subscribe to our Youtube Channel!!!</h5>
+          </p>
+          <a class="btn btn-danger" href="https://www.youtube.com/@mistercoderzofficial" target="_blank"
+            role="button">SUBSCRIBE</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Mister Coderz</h2>
+          <p>
+          <h5>Subscribe to our Youtube Channel!!!</h5>
+          </p>
+          <a class="btn btn-danger" href="https://www.youtube.com/@mistercoderzofficial" target="_blank"
+            role="button">SUBSCRIBE</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Mister Coderz</h2>
+          <p>
+          <h5>Subscribe to our Youtube Channel!!!</h5>
+          </p>
+          <a class="btn btn-danger" href="https://www.youtube.com/@mistercoderzofficial" target="_blank"
+            role="button">SUBSCRIBE</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container ">
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+      <div class="col">
+        <div class="card">
+          <img src="Blue Tutorial for Beginner Youtube Thumbnail (3).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Build A Weather App in HTML CSS & JavaScript</h5>
+            <p class="card-text">In this weather app, you can get the weather details of a particular city by entering
+              the city name.</p>
+            <a class="btn btn-primary" href="blogweatherapp.html" role="button">Read More &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+            <a class="btn btn-primary" href="weatherindex.html" target="_blank" role="button">Try Yourself &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Blue Tutorial for Beginner Youtube Thumbnail (6).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Make Calculator in HTML CSS & JavaScript</h5>
+            <p class="card-text">This calculator will do every calculation like division, multiplication, addition,
+              subtraction, and many more.</p>
+            <a class="btn btn-primary" href="blogcalculator.html" role="button">Read More &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+              <a class="btn btn-primary" href="calculator.html" target="_blank" role="button">Try Yourself &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Black and cream Youtube thumnail for making handmade paper video.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Make a Website in HTML CSS & JavaScript</h5>
+            <p class="card-text">Create a Responsive Website in HTML CSS, and JavaScript. <br>‎</p>
+            <a class="btn btn-primary disabled" href="#" role="button">Read More &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="col">
+        <div class="card">
+          <img src="Blue Tutorial for Beginner Youtube Thumbnail (5).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">How to Create A Snake Game in HTML CSS & JavaScript</h5>
+            <p class="card-text">Creating a Snake Game using HTML, CSS, and vanilla JavaScript is a fun and educational
+              project that can improve your web development skills.</p>
+            <a class="btn btn-primary" href="blogsnakegame.html" role="button">Read More &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+              <a class="btn btn-primary" href="snakegame.html" target="_blank" role="button">Try Yourself &nbsp;<svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination justify-content-end">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+        <li class="page-item "><a class="page-link" href="blog2.html">2</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        <li class="page-item ">
+          <a class="page-link " href="blog2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title  fs-5" id="exampleModalLabel1">Login to Mister Coderz</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+            <label class="form-check-label" for="autoSizingCheck">
+              Remember me
+            </label>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        <a class="btn btn-primary disabled" href="index.html" role="button">Submit</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel2">Create Mister Coderz Account</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Second Name</label>
+                      <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Address">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Andaman and Nicobar Islands</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Chandigarh</option>
+                        <option>Dadra and Nagar Haveli</option>
+                        <option>Daman and Diu</option>
+                        <option>Delhi</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jammu and Kashmir</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Lakshadweep</option>
+                        <option>Ladakh</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Puducherry</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                      </select>
+                    </div>
+
+
+
+
+                  </form>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                  <!-- <button type="submit" class="btn btn-primary">Create Account</button> -->
+                  <a class="btn btn-primary disabled" href="index.html" role="button">Create Account</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="http://www.mistercoderz.me/musicplayer.html"
+          class="nav-link px-2 text-body-secondary">Music Player</a></li>
+      <li class="nav-item"><a href="download.html" class="nav-link px-2 text-body-secondary">Download</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 Mister Coderz</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

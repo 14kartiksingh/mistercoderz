@@ -1,0 +1,49 @@
+.heading{
+    font-size: 50px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.belowtxt{
+    margin-left: 10px 0px 0px 0px;
+}
+
+.para{
+    font-size: 20px;
+    padding: 40px;
+}
+
+
+
+
+
+.scroll {
+    background-color: #011627;
+    width: 800px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 20px;
+    color: rgb(219, 219, 46);
+  
+}
+
+
+
+@media (max-width: 600px){
+ .heading{
+    font-size: 40px;
+ }
+ .para{
+    font-size: 20px;
+    padding: 30px;
+ }
+ .scroll{
+    width: 360px;
+ }
+ 
+}

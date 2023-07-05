@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Download - Mister Coderz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="blogweatherapp.css">
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">Mister Coderz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white"  href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" target="_blank" href="http://www.mistercoderz.me/musicplayer.html">LISTEN MUSIC</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="download.html">DOWNLOAD</a>
+                </li>
+                
+                
+  
+          
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  HTML & CSS
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Login Form</a></li>
+                      <li><a class="dropdown-item" href="#">Website Design</a></li>
+                      <li><a class="dropdown-item" href="#">Navigation Bar</a></li>
+                      <li><a class="dropdown-item" href="#">Side Bar</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="btn-group dropend">
+                        <button type="button" class="btn text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </button>
+                        <ul class="dropdown-menu">
+                          <!-- Dropdown menu links -->
+                        </ul>
+                      </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                JAVASCRIPT
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Form Validation</a></li>
+                      <li><a class="dropdown-item" href="#">Image Slider</a></li>
+                      <li><a class="dropdown-item" href="#">API Projects</a></li>
+                      <div class="btn-group dropend">
+                        <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          Games
+                        </button>
+                        <ul class="dropdown-menu">
+                          <!-- Dropdown menu links -->
+                        </ul>
+                      </div>
+                      <li><a class="dropdown-item" href="#">Canvas Projects</a></li>
+                      
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#">YOUTUBE</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary disabled" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                  Log In
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h1 class="modal-title  fs-5" id="exampleModalLabel1">Login to Mister Coderz</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <form>
+                                  <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                  </div>
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                      <label class="form-check-label" for="autoSizingCheck">
+                                        Remember me
+                                      </label>
+                                    </div>
+                                  
+                                </form>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary"
+                                  data-bs-dismiss="modal">Close</button>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <button type="button" class="btn btn-danger disabled" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                  Sign Up
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel2">Create Mister Coderz Account</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              
+  
+                                <form class="row g-3">
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Second Name</label>
+                                    <input type="text" class="form-control" id="inputPassword4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                  </div>
+                                  <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Address">
+                                  </div>
+                                  
+                                  <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                  </div>
+                                  <div class="col-md-4">
+                                    <label for="inputState" class="form-label">State</label>
+                                    <select id="inputState" class="form-select">
+                                      <option selected>Choose...</option>
+                                      <option>Uttar Pradesh</option>
+                                    </select>
+                                  </div>
+                                 
+                                  
+                                  
+                                  
+                                </form>
+  
+  
+  
+  
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary"
+                                  data-bs-dismiss="modal">Close</button>
+                                 
+                                      <button type="submit" class="btn btn-primary">Sign in</button>
+                                    
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+  
+  
+  
+          </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+    
+        <strong>Love our work? You'll also love our web development services on Fiverr!
+        </strong>  <a href="#" class="alert-link">Hire us on Fiverr</a>
+    
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  
+      <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+          <strong>We have launched our new Music Player. Try it Out!!!</strong> <span class="badge text-bg-primary ">New</span>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="m-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item "><a href="#"> JavaScript Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">How to Create A Snake Game in HTML CSS & JavaScript</li>
+        </ol>
+    </nav>
+    <hr class="my-0">
+
+ 
+    
+
+
+
+    <div class="container ">
+        <p class=" heading ">How to Create A Snake Game in HTML CSS & JavaScript</p>
+        <p class="belowtxt">By Mister Coderz -August 20, 2022</p>
+
+        <img src="Blue Tutorial for Beginner Youtube Thumbnail (5).png" class="img-fluid rounded mx-auto d-block "
+            alt="Responsive image">
+
+
+        <div class="para">
+
+            Snake is a classic game that millions of people have played. Have you ever thought about creating your own Snake Game? Creating a Snake Game using HTML, CSS, and vanilla JavaScript is a fun and educational project that can improve your web development skills. <br><br>
+
+In this blog post, I’ll guide you through the steps of creating your own Snake Game from scratch. You can play this game on a PC using keyboard arrow keys or on a mobile device using touch-based arrow buttons. <br><br>
+
+If you’re excited to see how this snake game looks and works, click here to play it. For a full video tutorial on creating a snake game using HTML, CSS, and JavaScript, you can watch the given YouTube video.
+
+        </div>
+
+        <p class=" heading ">Video Tutorial of Snake Game in JavaScript</p>
+
+        <!-- video  -->
+
+        <div class="ratio ratio-16x9 m-4 position-relaive w-75 ">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ApnUH4Rus1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="para">
+            Making a Snake Game is not only fun, but it can also help you develop problem-solving skills and the ability to break down complex problems into smaller ones. So, I highly recommend that you watch the above video tutorial to the end. <br><br>
+
+            In the video, I tried to explain each line with comments and show which code does what in the game. But if you wish, you can skip the video tutorial and continue reading this post to create a snake game on your own.
+        </div>
+
+        <p class=" heading ">Steps For Creating Snake Game in JavaScript</p>
+
+        <div class="para">
+            To create a snake game using HTML, CSS, and JavaScript, follow the given steps line by line:<br> <br>
+
+1. Create a folder. You can name this folder whatever you want, and inside this folder, create the mentioned files. <br>
+2. Create an index.html file. The file name must be index and its extension .html <br>
+3. Create a style.css file. The file name must be style and its extension .css <br>
+4. Create a script.js file. The file name must be script and its extension .js <br> <br>
+To start, add the following HTML codes to your index.html file to create the game’s basic layout. The “play-board” container is empty now, but it will be filled with snake bodies and food elements later using JavaScript code.
+
+        </div>
+
+     
+        <div class="scroll ">
+            
+          *HTML Code will available soon.*
+            
+
+        </div>
+
+        <div class="para">
+            Next, add the following CSS codes to your style.css file to make the layout of the Snake game. Remember that control arrow keys are only shown on small devices, such as phones. If you prefer to display them on all devices, you can easily modify the media query code.
+        </div>
+
+        <div class="scroll">
+            
+            *CSS Code will available soon. *
+            
+
+        </div>
+
+        <div class="para">
+            Finally, add the following JavaScript code to your script.js file to add functionality for the snake game. This code will handle the logic behind the snake’s movement, eating food, updating the score, and detecting collisions with walls or its own body.   
+        </div>
+
+        <div class="scroll">
+            
+          *JavaScript Code will available soon.*
+            
+
+        </div>
+
+        <div class="para">
+            In the code, you can see that the current speed of the snake is 100 milliseconds, which determines how quickly the snake moves on the game board. You can easily adjust this speed by changing the value in the “setInterval” function at the bottom of the code. <br><br>
+
+To understand the code more deeply, you can watch the above YouTube video tutorial or read the comments within the code and experiment with it.
+
+</div>
+<p class=" heading ">Conclusion and Final Words</p>
+
+<div class="para">
+    By following the steps in this blog post, you have successfully created a classic snake game using HTML, CSS, and JavaScript which you can play on any device browser. I hope this snake game project helps you understand DOM manipulation, problem-solving skills, and other web development skills.
+ <br><br>
+    If you enjoyed creating your Snake Game and learned something new, you can check out my other JavaScript Games such as Quiz, Memory Card, Tic Tac Toe, and many more. These games are not only enjoyable to create but also provide an excellent opportunity to practice and enhance your JavaScript skills.
+    <br><br>
+    If you encounter any problems or your code is not working as expected, you can download the source code files of this Snake Game project by clicking on the given download button. It’s free, and a zip file containing the project folder with source code files will be downloaded.
+    
+    
+    <div class="text-center">
+      <button type="button" class="btn btn-lg btn-primary m-2" data-bs-toggle="popover"
+        data-bs-title="Download Unavailable :/"
+        data-bs-content="You can download source code once available on website">Download Source Code</button>
+      <a class="btn btn-lg btn-primary " target="_blank" href="snakegame.html" role="button">Try Snake Game</a>
+    </div>
+    </div>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="http://www.mistercoderz.me/musicplayer.html" class="nav-link px-2 text-body-secondary">Music Player</a></li>
+          <li class="nav-item"><a href="download.html" class="nav-link px-2 text-body-secondary">Download</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Mister Coderz</p>
+      </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> try now</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Mister Coderz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="http://www.mistercoderz.me/musicplayer.html">LISTEN
+              MUSIC</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="download.html">DOWNLOAD</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" target="_blank" href="projects.html">PROJECTS</a>
+          </li>
+
+
+
+
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              HTML & CSS
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Login Form</a></li>
+              <li><a class="dropdown-item" href="#">Website Design</a></li>
+              <li><a class="dropdown-item" href="#">Navigation Bar</a></li>
+              <li><a class="dropdown-item" href="#">Side Bar</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <div class="btn-group dropend">
+                <button type="button" class="btn text-white  dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  More
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                </ul>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              JAVASCRIPT
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Login Form</a></li>
+              <li><a class="dropdown-item" href="#">Image Slider</a></li>
+              <li><a class="dropdown-item" href="#">API Projects</a></li>
+              <div class="btn-group dropend">
+                <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Games
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                </ul>
+              </div>
+              <li><a class="dropdown-item" href="#">Canvas Projects</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white active" target="_blank" aria-current="page"
+              href="https://www.youtube.com/@mistercoderzofficial">YOUTUBE</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary disabled" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Log In
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title  fs-5" id="exampleModalLabel1">Login to Mister Coderz</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                      <label class="form-check-label" for="autoSizingCheck">
+                        Remember me
+                      </label>
+                    </div>
+
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-danger disabled" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Sign Up
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel2">Create Mister Coderz Account</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Second Name</label>
+                      <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Address">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Uttar Pradesh</option>
+                      </select>
+                    </div>
+
+
+
+
+                  </form>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+
+    <strong>Love our work? You'll also love our web development services on Fiverr!
+    </strong> <a href="#" class="alert-link">Hire us on Fiverr</a>
+
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="alert alert-primary alert-dismissible fade show my-0" role="alert">
+    <strong>We have launched our new Music Player.</strong><a target="_blank"
+      href="http://www.mistercoderz.me/musicplayer.html" class="alert-link">Try it Out!!!</a> <span
+      class="badge text-bg-primary ">New</span>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="m-4">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">All Projects</li>
+    </ol>
+  </nav>
+
+  <div class="container-fluid mt-2">
+    <div class="list-group">
+
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">1. Weather App</h5>
+          <a target="_blank" class="icon-link" href="weatherindex.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">2. Time Clock</h5>
+          <a target="_blank" class="icon-link" href="time.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">3. Calculator</h5>
+          <a target="_blank" class="icon-link" href="calculator.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">4. Card Hover</h5>
+          <a target="_blank" class="icon-link" href="cardhover.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">5. Clock</h5>
+          <a target="_blank" class="icon-link" href="clock.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">6. Login Form</h5>
+          <a target="_blank" class="icon-link" href="login form.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">7. Navbar</h5>
+          <a target="_blank" class="icon-link" href="navbarstylee.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">8. Neon Button</h5>
+          <a target="_blank" class="icon-link " href="neonbutton.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">9. Scroll Top</h5>
+          <a target="_blank" class="icon-link" href="scrolltop.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">10. Simple Signup Page</h5>
+          <a target="_blank" class="icon-link" href="simplesignuppage.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">11. Snake Game</h5>
+          <a target="_blank" class="icon-link" href="snakegame.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between" >
+          <h5 class="mb-1">12. Stop Watch</h5>
+          <a target="_blank" class="icon-link" href="stopwatch.html">
+            Try
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- <div class="list-group m-4">
+        <a href="weatherindex.html" class="list-group-item list-group-item-action">1. Weather App</a>
+        <a href="navbar.html" class="list-group-item list-group-item-action">2. Navbar</a>
+        <a href="calculator.html" class="list-group-item list-group-item-action">3. Calculator</a>
+        <a href="cardhover.html" class="list-group-item list-group-item-action">4. Card Hover</a>
+        <a href="clock.html" class="list-group-item list-group-item-action">5. Clock</a>
+        <a href="login form.html" class="list-group-item list-group-item-action">6. Login Form</a>
+        <a href="navbarstylee.html" class="list-group-item list-group-item-action">7. Navbar2</a>
+        <a href="neonbutton.html" class="list-group-item list-group-item-action">8. Neon Button</a>
+        <a href="scrolltop.html" class="list-group-item list-group-item-action">9. Scroll Top</a>
+        <a href="simplesignuppage.html" class="list-group-item list-group-item-action">10. Simple Signup Page</a>
+        <a href="snakegame.html" class="list-group-item list-group-item-action">11. Snake Game</a>
+        <a href="stopwatch.html" class="list-group-item list-group-item-action">12. Stop Watch</a>
+        <a href="time.html" class="list-group-item list-group-item-action">13. Time Clock</a>
+    </div> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
